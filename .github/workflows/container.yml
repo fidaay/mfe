@@ -6,7 +6,7 @@ on:
       - main
       - master
     paths:
-      - 'packages/container/**'
+      - 'mfp/packages/container/**'
 
 defaults:
   run:
