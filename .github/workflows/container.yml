@@ -1,13 +1,13 @@
 name: deploy-container
 
 on:
+  workflow_dispatch:
   push:
     branches:
       #- main
       - master
     paths:
       - 'mfp/packages/container/**'
-    workflow_dispatch:
 
 defaults:
   run:
