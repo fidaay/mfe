@@ -7,11 +7,11 @@ on:
       #- main
       - master
     paths:
-      - 'mfp/packages/container/**'
+      - 'packages/container/**'
 
 defaults:
   run:
-    working-directory: mfp/packages/container
+    working-directory: packages/container
 
 jobs:
   build:
